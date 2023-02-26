@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.Toolbar {
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid gray;
+}
+
+.Canvas {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ShapeList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
